@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/startCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="摄像头功能"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/startAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:text="录音功能"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/startWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="浏览器功能"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/startScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:text="录屏功能"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

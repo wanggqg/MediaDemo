@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start takPic" />
+        <Button
+            android:id="@+id/NV21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NV21" />
+        <Button
+            android:id="@+id/YV12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YV12" />
+        <Button
+            android:id="@+id/volue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volue" />
+        <Button
+            android:id="@+id/dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getDev" />
+        <Button
+            android:id="@+id/bt_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="audioActivity" />
+    </LinearLayout>
+    <SurfaceView
+        android:id="@+id/mysurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
